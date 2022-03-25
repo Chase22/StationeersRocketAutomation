@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T13:48:25.338Z" agent="5.0 (X11)" version="16.5.6" etag="LP_WEbnSYMYYNK67Hr1j" type="github"><diagram id="UpOfG3aaBhA3yykBfOmW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-25T14:02:40.236Z" agent="5.0 (X11)" etag="uQ1XBQYaN3kLEsOeQO69" version="16.5.6" type="github">
+  <diagram id="UpOfG3aaBhA3yykBfOmW" name="Page-1">
+    <mxGraphModel dx="1350" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yfmzmE6muWUZYvTABoQO-10" value="Fuel &amp;lt; 5000" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.921;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-1" target="yfmzmE6muWUZYvTABoQO-6">
+          <mxGeometry x="0.229" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-1" value="Idle on Launchpad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-2" value="&lt;h1&gt;Rocket Mode&lt;br&gt;&lt;/h1&gt;&lt;div&gt;0. Idle on Launchpad&lt;/div&gt;&lt;div&gt;1. Launching to Space&lt;/div&gt;&lt;div&gt;2. Traveling in Space&lt;/div&gt;&lt;div&gt;3. Arriving at Location Space&lt;/div&gt;&lt;div&gt;4. Idle in Space&lt;/div&gt;&lt;div&gt;5. Returning to LaunchPad&lt;/div&gt;&lt;div&gt;6. Unused&lt;/div&gt;&lt;div&gt;7. Out of Fuel in Space&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="10" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-3" value="&lt;h1&gt;Rocket Activate&lt;br&gt;&lt;/h1&gt;&lt;div&gt;1. Launch to Space&lt;/div&gt;&lt;div&gt;2. Travel in Space&lt;/div&gt;&lt;div&gt;4. Stop Traveling in Space&lt;/div&gt;&lt;div&gt;5. Return to the Launch Pad&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="10" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="135" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="yfmzmE6muWUZYvTABoQO-4" parent="1" target="yfmzmE6muWUZYvTABoQO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-11" value="Fuel &amp;gt;= 5000" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-6" target="yfmzmE6muWUZYvTABoQO-1">
+          <mxGeometry x="-0.0941" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-6" value="Refuel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-9" value="Cargo == 0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-7" target="yfmzmE6muWUZYvTABoQO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-7" value="Empty Cargo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-8" value="Cargo &amp;gt; 0" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-1" target="yfmzmE6muWUZYvTABoQO-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-12" value="Launch to Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-13" target="yfmzmE6muWUZYvTABoQO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-13" value="Launching to Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-14" target="yfmzmE6muWUZYvTABoQO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-14" value="Idle in Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-15" value="Cargo == 0 &amp;amp;&amp;amp; Fuel &amp;gt;= 5000" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-1" target="yfmzmE6muWUZYvTABoQO-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-12" target="yfmzmE6muWUZYvTABoQO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-28" value="Collectables false" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-19" target="yfmzmE6muWUZYvTABoQO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-32" value="Cargo full&lt;br&gt;Fuel &amp;lt; 800" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-19" target="yfmzmE6muWUZYvTABoQO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-19" value="Mine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-20" target="yfmzmE6muWUZYvTABoQO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-20" value="Travel in Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-29" value="Collectables true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-21" target="yfmzmE6muWUZYvTABoQO-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="825" />
+              <mxPoint x="770" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-21" value="Travelling in Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-25" value="Yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-23" target="yfmzmE6muWUZYvTABoQO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-26" value="No" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-23" target="yfmzmE6muWUZYvTABoQO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-23" value="Collectables?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-30" target="yfmzmE6muWUZYvTABoQO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-30" value="Return to Launchpad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-34" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfmzmE6muWUZYvTABoQO-31" target="yfmzmE6muWUZYvTABoQO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfmzmE6muWUZYvTABoQO-31" value="Returning to Launchpad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="570" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
